@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+    color: blue;
+}
+body{
+    background-color: rgb(246, 220, 179);
+    font-size: larger;
+font-family: 'Times New Roman', Times, serif;
+Fo
+;}
+
+p{
+    border: blue;
+    text-align: justify;
+text-align: unset;
+-moz-text-decoration-style: dotted;
+}
+h2{-ms-text-combine-horizontal: all;}

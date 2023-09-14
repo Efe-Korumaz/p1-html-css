@@ -1,0 +1,10 @@
+h1{
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration-color: thistle;
+}
+body{
+    background-color: antiquewhite
+    ;
+}
+img{-webkit-border-image: round;}
