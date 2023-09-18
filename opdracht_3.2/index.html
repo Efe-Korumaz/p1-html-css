@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <form action="website.html" method="get">
-    <div><label for="first name">name</label>
-        <input type="text" name="name" id="name" min="0" max="0" required ></div>
+ <center> <form action="website.html" method="get">
+    <div><label for="firstname">name</label>
+        <input type="text" name="name" id="name" required pattern="[^0-9]*"></div>
         <div><label for="lastname">lastname</label>
         <input type="text" min="0" max="0" required></div>
 <label for="gender">gender</label>
@@ -19,10 +20,10 @@
 </select>
 <div><label for="street name">street name</label>
 <input type="text">
-<label for="huisnummer">huisnummer</label>
+<div><label for="huisnummer">huisnummer</label>
 <input type="text" name="huisnummer" id="huisnummer" min="1" max="999"></div>
-        <div><label for="post code">post code</label>
-        <input type="text" min="0001" max="9999" required></div>
+        <div><label for="postcode">post code</label>
+        <input type="text" min="001" max="999" required></div>
         <div><label for="city">city</label>
         <select name="city" id="city" required>
             <option value="Schiedam">Schiedam</option>
@@ -33,10 +34,17 @@
             <option value="Seoul">Seoul</option>
         </select> </div>
         <div><label for="country">country</label>
-            <input type="text" name="country" id="country" required>
-        <div><label for="bsn number">bsn nummer</label>
-        <input type="tel" min="1" max="999999999" required></div>
-        <div><label for="locations">travle</label>
+            <select name="country" id="country">
+                        <option value="Netherlands">Netherlands</option>
+                        <option value="Japan">Japan</option>
+                        <option value="Italy">Italy</option>
+                        <option value="France">France</option>
+                        <option value="Korea">korea</option>
+                        <option value="Germany">Germany</option>
+            </select>
+        <div><label for="bsnnumber">bsn nr</label>
+        <input type="tel" min="000000000" max="999999999" required></div>
+        <div><label for="locations">travel</label>
         <select name="locations" id="locations" required>
             <option value="Korea">Korea</option>
             <option value="Japan">Japan</option>
@@ -45,14 +53,14 @@
             <option value="Netherlands">Netherlands</option>
             <option value="Germany">Germany</option>
         </select></div>
-        <div><label for="Date">Date of leave</label>
+        <div><label for="date">Date of leave</label>
         <input type="date" name="Date" id="Date" min="2023-09-08" max="2024-09-08" required></div>
         <div><label for="date2">Date of return</label>
             <input type="date" name="Date2" id="Date2" min="2023-09-08" required></div>
             <div><label for="amount">amount of passangers</label>
             <input type="number" name="amount" id="amount" min="1" max="4"required></div>
-    <div> <button>book now</button></div>
+    <div> <input type="submit" value="book now"></div>
     <div><input type="reset" value="reset"></div>
   </form>  
+  </center>
 </body>
-<
