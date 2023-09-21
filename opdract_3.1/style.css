@@ -8,14 +8,15 @@ html {
 }
 body {
   font-family: "Goldman", cursive;
+  font-weight: bold;
 }
 
 .homepage{  background-image: url("./img/background.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
-}
+  width: 16vw;
+  height: 16vh;}
 
-.phppage{}
 
 nav {
   display: flex;
@@ -42,5 +43,7 @@ nav a {
   text-decoration: none;
 }
 nav img {
-  width: 5vw;
-}
+width: 5vw ;}
+footer{color: green;
+width: 20vw;
+height: 10vh;}
