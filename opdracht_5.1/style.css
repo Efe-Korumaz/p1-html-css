@@ -1,0 +1,48 @@
+nav {
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  background: green;
+  justify-content: space-between;
+  position: sticky;
+  padding: 0px 0px 0px 0px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+nav li {
+  font-size: 2.5rem;
+  padding: 0 4rem 0 4rem;
+
+}
+
+nav a {
+
+  color: white;
+  text-decoration: none;
+}
+
+nav img {
+  width: 5vw;
+  cursor: pointer;
+}
+
+body {position: static;
+}
+.box1 {
+padding: 20px 20px 20px 20px;
+}
+
+footer {
+  margin: 20px 20px 20px 20px;
+  padding: 100px 30px 30px 50px;
+}
+

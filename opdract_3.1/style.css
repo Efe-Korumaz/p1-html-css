@@ -3,19 +3,23 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 html {
   font-size: 62.5%;
 }
+
 body {
   font-family: "Goldman", cursive;
   font-weight: bold;
 }
 
-.homepage{  background-image: url("./img/background.jpeg");
+.homepage {
+  background-image: url("./img/background.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 16vw;
-  height: 16vh;}
+  height: 16vh;
+}
 
 
 nav {
@@ -28,25 +32,124 @@ nav {
   margin: auto;
   background: #00a8c7;
   justify-content: space-between;
+  position: sticky;
 }
+
 nav ul {
   display: flex;
   align-items: center;
   list-style-type: none;
+
 }
+
 nav li {
   font-size: 2.5rem;
   padding: 0 4rem 0 4rem;
 }
+
 nav a {
   color: white;
   text-decoration: none;
 }
-nav img {
-width: 5vw ;}
-footer{color: green;
-width: 20vw;
-height: 10vh;}
 
-body{background-color: black;
-background-repeat: no-repeat}
+nav img {
+  width: 5vw;
+}
+
+footer {
+  color: green;
+  width: 20vw;
+  height: 10vh;
+}
+
+.footer {
+  color: green;
+  width: 20vw;
+  height: 100vh;
+  margin-top: 80%;
+}
+
+body {
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.java {
+  background-color: black;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+
+}
+
+.box1 {
+  padding: 20px 20px 20px 20px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer {
+  text-align: center;
+  margin: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  text-align: center;
+  color: white;
+}
+
+.pt1 {
+  color: black;
+  font-size: 20px;
+  margin-top: 100px;
+}
+
+.h2ja {
+  font-size: 20px;
+  margin-top: 100px;
+}
+
+.h2php {
+  color: black;
+  font-size: 20px;
+  margin-top: 100px;
+}
+
+.pt2 {
+  color: white;
+  font-size: 20px;
+  margin-top: 100px;
+}
+
+.pt3 {
+  font-size: 20px;
+  margin-top: 100px;
+}
+
+.sql {
+  background-color: black;
+}
+
+img {
+  float: left;
+}
+
+text p {
+  padding: 100px 0px 0px 0px;
+}
+
+.img1 {
+  float: right;
+}
