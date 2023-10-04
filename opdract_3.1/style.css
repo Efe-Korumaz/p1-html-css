@@ -76,7 +76,7 @@ nav img {
 
   padding: 1.6rem;
 
-  font-size: 1.6rem;
+  font-size: 2.5rem;
 
   border: none;
 
@@ -90,7 +90,6 @@ nav img {
 
   position: relative;
 
-  display: inline-block;
 
 }
 
@@ -101,17 +100,12 @@ nav img {
 .dropdown-content {
 
   display: none;
-
   position: absolute;
-
   background-color: #E9E9E9;
-
   min-width: 16rem;
-
   box-shadow: 0rem 0.8rem 1.6rem 0rem rgba(0, 0, 0, 0.2);
-
   z-index: 1;
-
+flex-direction: column;
   color: #00a8c7;
 
   top: 5rem;
@@ -128,8 +122,6 @@ nav img {
 
   text-decoration: none;
 
-  display: block;
-
   font-size: 1.4rem;
 
 }
@@ -138,6 +130,7 @@ nav img {
 
 .dropdown-content a:hover {
   background-color: #ddd;
+ 
 }
 
 
@@ -145,7 +138,7 @@ nav img {
 
 
 .dropdown:hover .dropdown-content {
-  display: block;
+  display: flex;
 
 }
 
