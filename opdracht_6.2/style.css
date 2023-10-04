@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+display: flex;
+justify-content: space-evenly;
+flex-direction: row-reverse;
+}
+
+div {
+    height: 200px;
+    width: 200px;
+}
+
+.div1 {
+    background-color: red;
+}
+
+.div2 {
+    background-color: blue;
+}
+
+.div3 {
+    background-color: black;
+}
+
+.div4 { background-color: green;}
+
