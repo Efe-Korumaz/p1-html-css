@@ -105,7 +105,7 @@ nav img {
   min-width: 16rem;
   box-shadow: 0rem 0.8rem 1.6rem 0rem rgba(0, 0, 0, 0.2);
   z-index: 1;
-flex-direction: column;
+  flex-direction: column;
   color: #00a8c7;
 
   top: 5rem;
@@ -130,7 +130,7 @@ flex-direction: column;
 
 .dropdown-content a:hover {
   background-color: #ddd;
- 
+
 }
 
 
@@ -223,7 +223,8 @@ footer {
 
 .footer {
   text-align: center;
-  margin: 20px;
+  background-color: aqua;
+
 }
 
 h1,
@@ -267,6 +268,18 @@ h5 {
   background-color: black;
 }
 
+.sqlp {
+  color: #E9E9E9;
+  float: left;
+  width: 20vw;
+
+}
+
+.sqlimg {
+  float: right;
+  width: 55%;
+}
+
 img {
   float: left;
 }
@@ -277,4 +290,16 @@ text p {
 
 .img1 {
   float: right;
+}
+
+.contp {
+  color: black;
+}
+
+.sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 9%;
 }
