@@ -3,119 +3,119 @@
     padding: 0;
     box-sizing: border-box;
 }
-nav {
-    background-color: red;
-    height: 10vh;
-    font-size: 30px;
-    display: none;
-}
-.section1 {
-    background-color: yellow;
-    height: 30vh;
-}
-.hsec1 { background-color: yellow;
-font-weight: bold;}
-.section2 { 
-    background-color: orangered;
-    height: 30vh;
-}
-.hsec2 { background-color: orangered;
-font-weight: bold;}
-.section3 {
-    background-color: green;
-    height: 30vh;
-}
-.hsec3 { background-color: green;
-}
-p {
-    font-weight: bold;
-}
 
-@media screen and ( max-width: 768px) {
-    nav {
-        display:block ;
-        background-color: red;
-    }
-    section {
-        .section1 {
-            background-color: yellow;
-            height: 25vh;
-        }
-        .hsec1 { background-color: yellow;
-        font-weight: bold;}
-        .section2 { 
-            background-color: orangered;
-            height: 25vh;
-        }
-        .hsec2 { background-color: orangered;
-        font-weight: bold;}
-        .section3 {
-            background-color: green;
-            height: 29vh;
-        }
-        .hsec3 { background-color: green;
-        }
-        p {
-            font-weight: bold;
-        }
-    }
-    @media screen and (max-width = 800px) {
-        
-    }
-    nav { display:block;
-    background-color: rgb(252, 106, 131);
+  nav {
+      background-color: crimson;
+      height: 10vh;
+      display: flex;
+      align-items: center;
+  }
 
-}
-    .section1 {
-        background-color: palevioletred;
-        height: 25vh;
-    }
-    .hsec1 { background-color: palevioletred;
-    font-weight: bold;}
-    .section2 { 
-        background-color: teal;
-        height: 25vh;
-    }
-    .hsec2 { background-color: teal;
-    font-weight: bold;}
-    .section3 {
-        background-color: navy;
-        height: 29vh;
-    }
-    .hsec3 { background-color: navy;
-    }
-    p {
-        font-weight: bold;
-    }
-}
-@media screen and (max-width: 360px) {
-    
-}
-    .bodym{
-    nav { display: block;
-        background-color: #5352e5;
-        box-sizing: content-box;
-    }
-    .section1 {
-        background-color: cyan;
-        height: 25vh;
-    }
-    .hsec1 { background-color: cyan;
-    font-weight: bold;}
-    .section2 { 
-        background-color: purple;
-        height: 25vh;
-    }
-    .hsec2 { background-color: purple;
-    font-weight: bold;}
-    .section3 {
-        background-color: navy;
-        height: 29vh;
-    }
-    .hsec3 { background-color: navy;
-    }
-    p {
-        font-weight: bold;
-    }
-}
+  .sec1 {
+      background-color: gold;
+      height: 30vh;
+      font-size: 20px;
+  }
 
+  .sec2 {
+      background-color: darkorange;
+      height: 30vh;
+      font-size: 20px;
+  }
+
+  .sec3 {
+      background-color: limegreen;
+      height: 30vh;
+      font-size: 20px;
+  }
+
+  section {
+      padding: 50px 0 0 50px;
+  }
+
+  @media screen and (max-width: 768px) {
+      nav{
+          background-color: pink;
+          height: 10vh;
+  color: white
+      }
+      .sec1 {
+          background-color: rgb(247, 79, 135 );
+          height: 30vh;
+          font-size: 20px;
+          color: white;
+      }
+
+      .sec2 {
+          background-color: rgb(113, 133, 237);
+          height: 30vh;
+          font-size: 20px;
+          color: white;}
+  .sec3 {
+      background-color: limegreen;
+      height: 30vh;
+      font-size: 20px;
+  }
+
+  section {
+      padding: 50px 0 0 50px;
+  }
+
+  @media screen and (max-width: 768px) {
+      nav{
+          background-color: pink;
+          height: 10vh;
+  color: white
+      }
+      .sec1 {
+          background-color: rgb(247, 79, 135 );
+          height: 30vh;
+          font-size: 20px;
+          color: white;
+      }
+
+      .sec2 {
+          background-color: rgb(113, 133, 237);
+          height: 30vh;
+          font-size: 20px;
+          color: white;}
+
+          .sec3 {
+              background-color: rgb(0, 0, 255);
+              height: 30vh;
+              font-size: 20px;
+              color: white;
+          }
+      }
+      @media screen and (max-width: 576px){
+          nav{
+              background-color: rgb(114, 224, 255);
+              height: 10vh;
+              color: white;}
+              .sec1 {
+                  background-color: rgb(3, 199, 199 );
+                  height: 30vh;
+                  font-size: 20px;
+                  color: white;
+                  justify-content: center;
+                  align-items: center;
+                  text-align: center;
+              }
+              .sec2 {
+                  background-color: rgb(162, 62, 255 );
+                  height: 30vh;
+                  font-size: 20px;
+                  color: white;
+                  justify-content: center;
+                  align-items: center;
+                  text-align: center;
+              }
+              .sec3 {
+                  background-color: rgb(26, 23, 23);
+                  height: 30vh;
+                  font-size: 20px;
+                  color: white;
+                  justify-content: center;
+                  align-items: center;
+                  text-align: center;
+              }}}
