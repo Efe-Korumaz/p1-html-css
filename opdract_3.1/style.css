@@ -117,116 +117,69 @@ nav img {
 .dropdown-content a {
 
   color: #00a8c7;
-
   padding: 1.2rem 1.6rem;
-
   text-decoration: none;
-
   font-size: 1.4rem;
-
+background-color: white;
 }
 
 
 
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color:#E9E9E9;
 
 }
-
-
-
-
-
 .dropdown:hover .dropdown-content {
   display: flex;
-
 }
-
-
-
-
-
-.dropdown:hover .dropbtn {
-  background-color: white;
-  color: #00a8c7;
-}
-
-;
-
-
-
 .jaar2:hover+.dropdown {
-
   display: flex;
-
   flex-direction: column;
-
+  background-color: #E9E9E9;
 }
-
-
-
 .dropdown:hover {
-
   display: flex;
-
   flex-direction: column;
-
 }
-
-
-
 .dropdown h1 {
-
   font-size: 2.5rem;
-
 }
-
 footer {
   color: green;
   width: 20vw;
   height: 10vh;
 }
-
 .footer {
   color: green;
   width: 20vw;
   height: 100vh;
   margin-top: 80%;
 }
-
 body {
   background-repeat: no-repeat;
   text-align: center;
 }
-
 .java {
   background-color: black;
 }
-
 body {
   position: relative;
   min-height: 100vh;
   margin: 0;
   padding: 0;
-
 }
-
 .box1 {
   padding: 20px 20px 20px 20px;
 }
-
 footer {
   position: absolute;
   bottom: 0;
   width: 100%;
 }
-
 .footer {
   text-align: center;
   background-color: aqua;
-
 }
-
 h1,
 h2,
 h3,
@@ -235,39 +188,32 @@ h5 {
   text-align: center;
   color: white;
 }
-
 .pt1 {
   color: black;
   font-size: 20px;
   margin-top: 100px;
 }
-
 .h2ja {
   font-size: 20px;
   margin-top: 100px;
 }
-
 .h2php {
   color: black;
   font-size: 20px;
   margin-top: 100px;
 }
-
 .pt2 {
   color: white;
   font-size: 20px;
   margin-top: 100px;
 }
-
 .pt3 {
   font-size: 20px;
   margin-top: 100px;
 }
-
 .sql {
   background-color: black;
 }
-
 .sqlp {
   color: #E9E9E9;
   float: left;

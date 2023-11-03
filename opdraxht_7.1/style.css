@@ -33,7 +33,8 @@ p {
 
 @media screen and ( max-width: 768px) {
     nav {
-        display: none;
+        display:block ;
+        background-color: red;
     }
     section {
         .section1 {
@@ -58,7 +59,9 @@ p {
             font-weight: bold;
         }
     }
-    
+    @media screen and (max-width = 800px) {
+        
+    }
     nav { display:block;
     background-color: rgb(252, 106, 131);
 
@@ -85,9 +88,10 @@ p {
         font-weight: bold;
     }
 }
+@media screen and (max-width: 360px) {
+    
+}
     .bodym{
-
-@media screen and (max-width: 576px) {
     nav { display: block;
         background-color: #5352e5;
         box-sizing: content-box;
@@ -113,5 +117,5 @@ p {
     p {
         font-weight: bold;
     }
-} }
+}
 
